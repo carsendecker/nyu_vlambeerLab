@@ -12,8 +12,13 @@ public class GameController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            Pathmaker.globalTileCount = 0;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            Restart();
         }
+    }
+
+    public void Restart()
+    {
+        Pathmaker.globalTileCount = 0;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

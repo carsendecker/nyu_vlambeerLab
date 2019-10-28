@@ -82,7 +82,6 @@ public class Pathmaker : MonoBehaviour
 // BETTER UI:
 // learn how to use UI Sliders (https://unity3d.com/learn/tutorials/topics/user-interface-ui/ui-slider) 
 // let us tweak various parameters and settings of our tech demo
-// let us click a UI Button to reload the scene, so we don't even need the keyboard anymore!
 
 // WALL GENERATION
 // add a "wall pass" to your proc gen after it generates all the floors
